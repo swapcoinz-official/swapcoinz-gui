@@ -1,0 +1,3 @@
+[submodule "swapcoinz"]
+	path = swapcoinz
+	url = https://github.com/swapcoinz/swapcoinz-core.git
