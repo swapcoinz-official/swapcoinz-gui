@@ -31,7 +31,7 @@ Swapcoinz development can be supported directly through donations.
 
 Both Monero and Bitcoin donations can be made to donate.swapcoinz.io if using a client that supports the [OpenAlias](https://openalias.org) standard
 
-The Swapcoinz donation address is: `9RUGwFu3WGh3wAkeWWzMNiQXiW9ChYRpH974mDdrGcjpEcpPrz143oc9sV1W8YyAUwCztbfxt9usZSMVnSBwPxCaDXzhYWz` (viewkey: `ac3b8aaffde0fba30a69cfceb54c7192aa6cf6161f86c8e970252d6ae94347e7`)
+The Swapcoinz donation address is: `5L48h18DwDALjarT9GSLxLjXnJBNJpHWk4R8DFXDR7dJicxYKfUJ62tcskFqYyECbL9BktzxeFYie1q6EKoNEdBiLfoSvfM` (viewkey: `d4585b726cf439d67b6ff690d1703b30f00c0f739c426b04f50519ee39c295ae`)
 
 The Bitcoin donation address is: `1DDquqzHZEM2PF7Qyftr9hvxk2NJaiozxx`
 
