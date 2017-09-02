@@ -220,6 +220,7 @@ bool DaemonManager::sendCommand(const QString &cmd,bool testnet, QString &messag
         external_cmd += " --testnet";
     external_cmd += "\n";
 
+    p.setWorkingDirectory(QApplication::applicationDirPath());
     p.start(external_cmd);
 
     bool started = p.waitForFinished(-1);
@@ -240,9 +241,9 @@ DaemonManager::DaemonManager(QObject *parent)
 
     // Platform depetent path to swapcoinzd
 #ifdef Q_OS_WIN
-    m_monerod = QApplication::applicationDirPath() + "/swapcoinzd.exe";
+    m_monerod = "./swapcoinzd.exe";
 #elif defined(Q_OS_UNIX)
-    m_monerod = QApplication::applicationDirPath() + "/swapcoinzd";
+    m_monerod = "./swapcoinzd";
 #endif
 
     if (m_monerod.length() == 0) {
