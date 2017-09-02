@@ -236,7 +236,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Dashboard") + translationManager.emptyString
                 symbol: qsTr("D") + translationManager.emptyString
-                dotColor: "#FFE00A"
+                dotColor: "#B0368F"
                 checked: true
                 onClicked: {
                     parent.previousButton.checked = false

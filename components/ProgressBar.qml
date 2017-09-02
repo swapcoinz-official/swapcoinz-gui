@@ -79,7 +79,7 @@ Item {
             width: (maxWidth * fillLevel) / 100
             color: {
                if(item.fillLevel < 99 ) return "#d300ae"
-               //if(item.fillLevel < 99) return "#FFE00A"
+               //if(item.fillLevel < 99) return "#B0368F"
                 return "#36B25C"
             }
 

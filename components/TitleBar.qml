@@ -58,7 +58,7 @@ Rectangle {
         property bool checked: false
         anchors.top: parent.top
         anchors.left: parent.left
-        color:  basicMouseArea.containsMouse || checked ? "#FFE00A" : "#2E001B"
+        color:  basicMouseArea.containsMouse || checked ? "#B0368F" : "#2E001B"
         height: 30
         width: height
 

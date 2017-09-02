@@ -159,7 +159,7 @@ Rectangle {
         anchors.right: parent.right
 
 
-        Rectangle { height: 4; width: parent.width / 5; color: "#FFE00A" }
+        Rectangle { height: 4; width: parent.width / 5; color: "#B0368F" }
         Rectangle { height: 4; width: parent.width / 5; color: "#6B0072" }
         Rectangle { height: 4; width: parent.width / 5; color: "#d300ae" }
         Rectangle { height: 4; width: parent.width / 5; color: "#FFD781" }
